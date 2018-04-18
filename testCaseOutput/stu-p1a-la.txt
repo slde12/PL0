@@ -1,0 +1,21 @@
+-------------------------------------------
+LIST OF LEXEMES/TOKENS:
+
+Internal Representation:
+29 2 x 17 2 y 17 2 z 18 21 2 x 20 3 5 18 2 y 20 3 3 18 2 z 20 3 0 18 2 z 20 2 x 4 2 y 18 31 2 z 18 2 z 20 2 x 5 2 y 18 31 2 z 18 2 z 20 2 x 6 2 y 18 31 2 z 18 2 z 20 2 x 7 2 y 18 31 2 z 18 2 z 20 15 3 4 4 3 4 16 6 2 y 18 31 2 z 18 2 x 20 2 x 6 2 x 4 3 1 18 31 2 x 18 2 x 20 3 9 6 15 2 z 4 2 y 16 18 31 2 x 18 2 x 20 2 x 7 3 9 18 31 2 x 18 2 x 20 2 y 6 15 3 3 4 3 4 4 3 5 16 7 3 2 18 31 2 x 18 22 19 
+
+Symbolic Representation:
+varsym identsym x commasym identsym y commasym identsym z semicolonsym beginsym identsym x becomessym numbersym 5 semicolonsym identsym y becomessym numbersym 3 semicolonsym identsym z becomessym numbersym 0 semicolonsym identsym z becomessym identsym x plussym identsym y semicolonsym writesym identsym z semicolonsym identsym z becomessym identsym x minussym identsym y semicolonsym writesym identsym z semicolonsym identsym z becomessym identsym x multsym identsym y semicolonsym writesym identsym z semicolonsym identsym z becomessym identsym x slashsym identsym y semicolonsym writesym identsym z semicolonsym identsym z becomessym lparentsym numbersym 4 plussym numbersym 4 rparentsym multsym identsym y semicolonsym writesym identsym z semicolonsym identsym x becomessym identsym x multsym identsym x plussym numbersym 1 semicolonsym writesym identsym x semicolonsym identsym x becomessym numbersym 9 multsym lparentsym identsym z plussym identsym y rparentsym semicolonsym writesym identsym x semicolonsym identsym x becomessym identsym x slashsym numbersym 9 semicolonsym writesym identsym x semicolonsym identsym x becomessym identsym y multsym lparentsym numbersym 3 plussym numbersym 4 plussym numbersym 5 rparentsym slashsym numbersym 2 semicolonsym writesym identsym x semicolonsym endsym periodsym 
+
+
+-------------------------------------------
+PROGRAM INPUT/OUTPUT:
+OUTPUT: 8
+OUTPUT: 2
+OUTPUT: 15
+OUTPUT: 1
+OUTPUT: 24
+OUTPUT: 26
+OUTPUT: 243
+OUTPUT: 27
+OUTPUT: 18

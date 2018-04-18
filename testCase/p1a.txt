@@ -1,0 +1,29 @@
+var x, y, z;
+begin
+/* test assignments */
+x :=5; 
+y := 3;
+z := 0;
+/* test operators */
+z := x + y;
+write z;
+z := x - y;
+write z;
+z := x * y;
+write z;
+z := x / y;
+write z;
+/* test order of operations */
+z := ( 4 + 4 ) * y;
+write z;
+x := x * x + 1;
+write x;
+x := 9 * (z + y);
+write x;
+x := x/9;
+write x;
+x := y * (3 + 4 + 5) / 2;
+write x;
+end.
+
+

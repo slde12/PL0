@@ -1,0 +1,21 @@
+-------------------------------------------
+LIST OF LEXEMES/TOKENS:
+
+Internal Representation:
+29 2 x 17 2 y 17 2 z 18 21 2 x 20 3 3 18 2 y 20 3 7 18 2 z 20 3 0 18 23 2 x 13 2 y 24 31 2 x 18 23 2 x 11 2 y 24 31 2 y 18 23 2 x 14 2 y 24 31 2 x 18 23 2 x 12 2 y 24 31 2 y 18 23 2 x 10 2 y 24 31 2 x 18 23 2 x 9 2 y 24 31 2 y 18 2 x 20 3 30 18 2 y 20 3 17 18 2 z 20 3 10 18 23 2 x 13 2 y 24 31 2 x 18 23 2 x 11 2 y 24 31 2 y 18 23 2 x 14 2 y 24 31 2 x 18 23 2 x 12 2 y 24 31 2 y 18 23 2 x 10 2 y 24 31 2 x 18 23 2 x 9 2 y 24 31 2 y 18 2 x 20 3 350 18 2 y 20 3 1 18 2 z 20 3 5 18 23 2 x 13 2 y 4 3 300 24 31 2 x 18 23 2 x 11 2 y 4 3 300 24 31 2 y 18 23 2 x 14 2 y 4 3 300 24 31 2 x 18 23 2 x 12 2 y 4 3 300 24 31 2 y 18 23 2 x 10 2 y 4 3 300 24 31 2 x 18 23 2 x 9 2 y 4 3 300 24 31 2 y 18 22 19 
+
+Symbolic Representation:
+varsym identsym x commasym identsym y commasym identsym z semicolonsym beginsym identsym x becomessym numbersym 3 semicolonsym identsym y becomessym numbersym 7 semicolonsym identsym z becomessym numbersym 0 semicolonsym ifsym identsym x gtrsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x lessym identsym y thensym writesym identsym y semicolonsym ifsym identsym x geqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x leqsym identsym y thensym writesym identsym y semicolonsym ifsym identsym x neqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x eqsym identsym y thensym writesym identsym y semicolonsym identsym x becomessym numbersym 30 semicolonsym identsym y becomessym numbersym 17 semicolonsym identsym z becomessym numbersym 10 semicolonsym ifsym identsym x gtrsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x lessym identsym y thensym writesym identsym y semicolonsym ifsym identsym x geqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x leqsym identsym y thensym writesym identsym y semicolonsym ifsym identsym x neqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x eqsym identsym y thensym writesym identsym y semicolonsym identsym x becomessym numbersym 350 semicolonsym identsym y becomessym numbersym 1 semicolonsym identsym z becomessym numbersym 5 semicolonsym ifsym identsym x gtrsym identsym y plussym numbersym 300 thensym writesym identsym x semicolonsym ifsym identsym x lessym identsym y plussym numbersym 300 thensym writesym identsym y semicolonsym ifsym identsym x geqsym identsym y plussym numbersym 300 thensym writesym identsym x semicolonsym ifsym identsym x leqsym identsym y plussym numbersym 300 thensym writesym identsym y semicolonsym ifsym identsym x neqsym identsym y plussym numbersym 300 thensym writesym identsym x semicolonsym ifsym identsym x eqsym identsym y plussym numbersym 300 thensym writesym identsym y semicolonsym endsym periodsym 
+
+
+-------------------------------------------
+PROGRAM INPUT/OUTPUT:
+OUTPUT: 7
+OUTPUT: 7
+OUTPUT: 3
+OUTPUT: 30
+OUTPUT: 30
+OUTPUT: 30
+OUTPUT: 350
+OUTPUT: 350
+OUTPUT: 350

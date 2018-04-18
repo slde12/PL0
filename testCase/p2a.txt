@@ -1,0 +1,53 @@
+var x, y, z;
+begin
+x := 3; 
+y := 7;
+z := 0;
+
+/* test > & < */
+if  x > y  then write x;
+if  x < y  then write y;
+
+/* test >= & <= */
+if  x >= y  then write x;
+if  x <= y  then write y;
+
+/* test <> & = */
+if  x <> y  then write x;
+if  x = y  then write y;
+
+x := 30; 
+y := 17;
+z := 10;
+
+/* test > & < */
+if  x > y  then write x;
+if  x < y  then write y;
+
+/* test >= & <= */
+if  x >= y  then write x;
+if  x <= y  then write y;
+
+/* test <> & = */
+if  x <> y  then write x;
+if  x = y  then write y;
+
+x := 350; 
+y := 1;
+z := 5;
+
+/* test > & < */
+if  x > y+300  then write x;
+if  x < y+300  then write y;
+
+/* test >= & <= */
+if  x >= y+300  then write x;
+if  x <= y+300  then write y;
+
+/* test <> & = */
+if  x <> y+300  then write x;
+if  x = y+300  then write y;
+
+
+
+end.

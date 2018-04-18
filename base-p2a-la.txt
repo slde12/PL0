@@ -1,0 +1,167 @@
+-------------------------------------------
+LIST OF LEXEMES/TOKENS:
+
+Internal Representation:
+29  2 x  17  2 y  17  2 z  18  21  2 x  20  3 3  18  2 y  20  3 7  18  2 z  20  3 0  18  23  2 x  13  2 y  24  31  2 x  18  23  2 x  11  2 y  24  31  2 y  18  23  2 x  14  2 y  24  31  2 x  18  23  2 x  12  2 y  24  31  2 y  18  23  2 x  10  2 y  24  31  2 x  18  23  2 x  9  2 y  24  31  2 y  18  2 x  20  3 30  18  2 y  20  3 17  18  2 z  20  3 10  18  23  2 x  13  2 y  24  31  2 x  18  23  2 x  11  2 y  24  31  2 y  18  23  2 x  14  2 y  24  31  2 x  18  23  2 x  12  2 y  24  31  2 y  18  23  2 x  10  2 y  24  31  2 x  18  23  2 x  9  2 y  24  31  2 y  18  2 x  20  3 350  18  2 y  20  3 1  18  2 z  20  3 5  18  23  2 x  13  2 y  4  3 300  24  31  2 x  18  23  2 x  11  2 y  4  3 300  24  31  2 y  18  23  2 x  14  2 y  4  3 300  24  31  2 x  18  23  2 x  12  2 y  4  3 300  24  31  2 y  18  23  2 x  10  2 y  4  3 300  24  31  2 x  18  23  2 x  9  2 y  4  3 300  24  31  2 y  18  22  19  
+
+Symbolic Representation:
+varsym  identsym x  commasym  identsym y  commasym  identsym z  semicolonsym  beginsym  identsym x  becomessym  numbersym 3  semicolonsym  identsym y  becomessym  numbersym 7  semicolonsym  identsym z  becomessym  numbersym 0  semicolonsym  ifsym  identsym x  gtrsym  identsym y  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  lessym  identsym y  thensym  writesym  identsym y  semicolonsym  ifsym  identsym x  geqsym  identsym y  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  leqsym  identsym y  thensym  writesym  identsym y  semicolonsym  ifsym  identsym x  neqsym  identsym y  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  eqsym  identsym y  thensym  writesym  identsym y  semicolonsym  identsym x  becomessym  numbersym 30  semicolonsym  identsym y  becomessym  numbersym 17  semicolonsym  identsym z  becomessym  numbersym 10  semicolonsym  ifsym  identsym x  gtrsym  identsym y  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  lessym  identsym y  thensym  writesym  identsym y  semicolonsym  ifsym  identsym x  geqsym  identsym y  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  leqsym  identsym y  thensym  writesym  identsym y  semicolonsym  ifsym  identsym x  neqsym  identsym y  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  eqsym  identsym y  thensym  writesym  identsym y  semicolonsym  identsym x  becomessym  numbersym 350  semicolonsym  identsym y  becomessym  numbersym 1  semicolonsym  identsym z  becomessym  numbersym 5  semicolonsym  ifsym  identsym x  gtrsym  identsym y  plussym  numbersym 300  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  lessym  identsym y  plussym  numbersym 300  thensym  writesym  identsym y  semicolonsym  ifsym  identsym x  geqsym  identsym y  plussym  numbersym 300  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  leqsym  identsym y  plussym  numbersym 300  thensym  writesym  identsym y  semicolonsym  ifsym  identsym x  neqsym  identsym y  plussym  numbersym 300  thensym  writesym  identsym x  semicolonsym  ifsym  identsym x  eqsym  identsym y  plussym  numbersym 300  thensym  writesym  identsym y  semicolonsym  endsym  periodsym  
+
+
+Code is syntactically correct. Assembly code generated successfully.
+-------------------------------------------
+GENERATED INTERMEDIATE CODE:
+  0 inc 0 0 7
+  1 lit 0 0 3
+  2 sto 0 0 4
+  3 lit 0 0 7
+  4 sto 0 0 5
+  5 lit 0 0 0
+  6 sto 0 0 6
+  7 lod 0 0 4
+  8 lod 1 0 5
+  9 gtr 0 0 1
+ 10 jpc 0 0 13
+ 11 lod 0 0 4
+ 12 sio 0 0 1
+ 13 lod 0 0 4
+ 14 lod 1 0 5
+ 15 lss 0 0 1
+ 16 jpc 0 0 19
+ 17 lod 0 0 5
+ 18 sio 0 0 1
+ 19 lod 0 0 4
+ 20 lod 1 0 5
+ 21 geq 0 0 1
+ 22 jpc 0 0 25
+ 23 lod 0 0 4
+ 24 sio 0 0 1
+ 25 lod 0 0 4
+ 26 lod 1 0 5
+ 27 leq 0 0 1
+ 28 jpc 0 0 31
+ 29 lod 0 0 5
+ 30 sio 0 0 1
+ 31 lod 0 0 4
+ 32 lod 1 0 5
+ 33 neq 0 0 1
+ 34 jpc 0 0 37
+ 35 lod 0 0 4
+ 36 sio 0 0 1
+ 37 lod 0 0 4
+ 38 lod 1 0 5
+ 39 eql 0 0 1
+ 40 jpc 0 0 43
+ 41 lod 0 0 5
+ 42 sio 0 0 1
+ 43 lit 0 0 30
+ 44 sto 0 0 4
+ 45 lit 0 0 17
+ 46 sto 0 0 5
+ 47 lit 0 0 10
+ 48 sto 0 0 6
+ 49 lod 0 0 4
+ 50 lod 1 0 5
+ 51 gtr 0 0 1
+ 52 jpc 0 0 55
+ 53 lod 0 0 4
+ 54 sio 0 0 1
+ 55 lod 0 0 4
+ 56 lod 1 0 5
+ 57 lss 0 0 1
+ 58 jpc 0 0 61
+ 59 lod 0 0 5
+ 60 sio 0 0 1
+ 61 lod 0 0 4
+ 62 lod 1 0 5
+ 63 geq 0 0 1
+ 64 jpc 0 0 67
+ 65 lod 0 0 4
+ 66 sio 0 0 1
+ 67 lod 0 0 4
+ 68 lod 1 0 5
+ 69 leq 0 0 1
+ 70 jpc 0 0 73
+ 71 lod 0 0 5
+ 72 sio 0 0 1
+ 73 lod 0 0 4
+ 74 lod 1 0 5
+ 75 neq 0 0 1
+ 76 jpc 0 0 79
+ 77 lod 0 0 4
+ 78 sio 0 0 1
+ 79 lod 0 0 4
+ 80 lod 1 0 5
+ 81 eql 0 0 1
+ 82 jpc 0 0 85
+ 83 lod 0 0 5
+ 84 sio 0 0 1
+ 85 lit 0 0 350
+ 86 sto 0 0 4
+ 87 lit 0 0 1
+ 88 sto 0 0 5
+ 89 lit 0 0 5
+ 90 sto 0 0 6
+ 91 lod 0 0 4
+ 92 lod 1 0 5
+ 93 lit 2 0 300
+ 94 add 1 1 2
+ 95 gtr 0 0 1
+ 96 jpc 0 0 99
+ 97 lod 0 0 4
+ 98 sio 0 0 1
+ 99 lod 0 0 4
+100 lod 1 0 5
+101 lit 2 0 300
+102 add 1 1 2
+103 lss 0 0 1
+104 jpc 0 0 107
+105 lod 0 0 5
+106 sio 0 0 1
+107 lod 0 0 4
+108 lod 1 0 5
+109 lit 2 0 300
+110 add 1 1 2
+111 geq 0 0 1
+112 jpc 0 0 115
+113 lod 0 0 4
+114 sio 0 0 1
+115 lod 0 0 4
+116 lod 1 0 5
+117 lit 2 0 300
+118 add 1 1 2
+119 leq 0 0 1
+120 jpc 0 0 123
+121 lod 0 0 5
+122 sio 0 0 1
+123 lod 0 0 4
+124 lod 1 0 5
+125 lit 2 0 300
+126 add 1 1 2
+127 neq 0 0 1
+128 jpc 0 0 131
+129 lod 0 0 4
+130 sio 0 0 1
+131 lod 0 0 4
+132 lod 1 0 5
+133 lit 2 0 300
+134 add 1 1 2
+135 eql 0 0 1
+136 jpc 0 0 139
+137 lod 0 0 5
+138 sio 0 0 1
+139 sio 0 0 3
+
+-------------------------------------------
+PROGRAM INPUT/OUTPUT:
+OUTPUT: 7
+OUTPUT: 7
+OUTPUT: 3
+OUTPUT: 30
+OUTPUT: 30
+OUTPUT: 30
+OUTPUT: 350
+OUTPUT: 350
+OUTPUT: 350
+
+Finished execution. Exiting...

@@ -1,0 +1,426 @@
+-------------------------------------------
+LIST OF LEXEMES/TOKENS:
+
+Internal Representation:
+29 2 x 17 2 y 17 2 z 18 21 2 x 20 3 3 18 2 y 20 3 7 18 2 z 20 3 0 18 23 2 x 13 2 y 24 31 2 x 18 23 2 x 11 2 y 24 31 2 y 18 23 2 x 14 2 y 24 31 2 x 18 23 2 x 12 2 y 24 31 2 y 18 23 2 x 10 2 y 24 31 2 x 18 23 2 x 9 2 y 24 31 2 y 18 2 x 20 3 30 18 2 y 20 3 17 18 2 z 20 3 10 18 23 2 x 13 2 y 24 31 2 x 18 23 2 x 11 2 y 24 31 2 y 18 23 2 x 14 2 y 24 31 2 x 18 23 2 x 12 2 y 24 31 2 y 18 23 2 x 10 2 y 24 31 2 x 18 23 2 x 9 2 y 24 31 2 y 18 2 x 20 3 350 18 2 y 20 3 1 18 2 z 20 3 5 18 23 2 x 13 2 y 4 3 300 24 31 2 x 18 23 2 x 11 2 y 4 3 300 24 31 2 y 18 23 2 x 14 2 y 4 3 300 24 31 2 x 18 23 2 x 12 2 y 4 3 300 24 31 2 y 18 23 2 x 10 2 y 4 3 300 24 31 2 x 18 23 2 x 9 2 y 4 3 300 24 31 2 y 18 22 19 
+
+Symbolic Representation:
+varsym identsym x commasym identsym y commasym identsym z semicolonsym beginsym identsym x becomessym numbersym 3 semicolonsym identsym y becomessym numbersym 7 semicolonsym identsym z becomessym numbersym 0 semicolonsym ifsym identsym x gtrsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x lessym identsym y thensym writesym identsym y semicolonsym ifsym identsym x geqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x leqsym identsym y thensym writesym identsym y semicolonsym ifsym identsym x neqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x eqsym identsym y thensym writesym identsym y semicolonsym identsym x becomessym numbersym 30 semicolonsym identsym y becomessym numbersym 17 semicolonsym identsym z becomessym numbersym 10 semicolonsym ifsym identsym x gtrsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x lessym identsym y thensym writesym identsym y semicolonsym ifsym identsym x geqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x leqsym identsym y thensym writesym identsym y semicolonsym ifsym identsym x neqsym identsym y thensym writesym identsym x semicolonsym ifsym identsym x eqsym identsym y thensym writesym identsym y semicolonsym identsym x becomessym numbersym 350 semicolonsym identsym y becomessym numbersym 1 semicolonsym identsym z becomessym numbersym 5 semicolonsym ifsym identsym x gtrsym identsym y plussym numbersym 300 thensym writesym identsym x semicolonsym ifsym identsym x lessym identsym y plussym numbersym 300 thensym writesym identsym y semicolonsym ifsym identsym x geqsym identsym y plussym numbersym 300 thensym writesym identsym x semicolonsym ifsym identsym x leqsym identsym y plussym numbersym 300 thensym writesym identsym y semicolonsym ifsym identsym x neqsym identsym y plussym numbersym 300 thensym writesym identsym x semicolonsym ifsym identsym x eqsym identsym y plussym numbersym 300 thensym writesym identsym y semicolonsym endsym periodsym 
+
+Code is syntactically correct. Assembly code generated successfully.
+-------------------------------------------
+GENERATED INTERMEDIATE CODE:
+  0 INC 0 0 7
+  1 LIT 0 0 3
+  2 STO 0 0 4
+  3 LIT 0 0 7
+  4 STO 0 0 5
+  5 LIT 0 0 0
+  6 STO 0 0 6
+  7 LOD 0 0 4
+  8 LOD 1 0 5
+  9 GTR 0 0 1
+ 10 JPC 0 0 13
+ 11 LOD 0 0 4
+ 12 SIO 0 0 1
+ 13 LOD 0 0 4
+ 14 LOD 1 0 5
+ 15 LSS 0 0 1
+ 16 JPC 0 0 19
+ 17 LOD 0 0 5
+ 18 SIO 0 0 1
+ 19 LOD 0 0 4
+ 20 LOD 1 0 5
+ 21 GEQ 0 0 1
+ 22 JPC 0 0 25
+ 23 LOD 0 0 4
+ 24 SIO 0 0 1
+ 25 LOD 0 0 4
+ 26 LOD 1 0 5
+ 27 LEQ 0 0 1
+ 28 JPC 0 0 31
+ 29 LOD 0 0 5
+ 30 SIO 0 0 1
+ 31 LOD 0 0 4
+ 32 LOD 1 0 5
+ 33 NEQ 0 0 1
+ 34 JPC 0 0 37
+ 35 LOD 0 0 4
+ 36 SIO 0 0 1
+ 37 LOD 0 0 4
+ 38 LOD 1 0 5
+ 39 EQL 0 0 1
+ 40 JPC 0 0 43
+ 41 LOD 0 0 5
+ 42 SIO 0 0 1
+ 43 LIT 0 0 30
+ 44 STO 0 0 4
+ 45 LIT 0 0 17
+ 46 STO 0 0 5
+ 47 LIT 0 0 10
+ 48 STO 0 0 6
+ 49 LOD 0 0 4
+ 50 LOD 1 0 5
+ 51 GTR 0 0 1
+ 52 JPC 0 0 55
+ 53 LOD 0 0 4
+ 54 SIO 0 0 1
+ 55 LOD 0 0 4
+ 56 LOD 1 0 5
+ 57 LSS 0 0 1
+ 58 JPC 0 0 61
+ 59 LOD 0 0 5
+ 60 SIO 0 0 1
+ 61 LOD 0 0 4
+ 62 LOD 1 0 5
+ 63 GEQ 0 0 1
+ 64 JPC 0 0 67
+ 65 LOD 0 0 4
+ 66 SIO 0 0 1
+ 67 LOD 0 0 4
+ 68 LOD 1 0 5
+ 69 LEQ 0 0 1
+ 70 JPC 0 0 73
+ 71 LOD 0 0 5
+ 72 SIO 0 0 1
+ 73 LOD 0 0 4
+ 74 LOD 1 0 5
+ 75 NEQ 0 0 1
+ 76 JPC 0 0 79
+ 77 LOD 0 0 4
+ 78 SIO 0 0 1
+ 79 LOD 0 0 4
+ 80 LOD 1 0 5
+ 81 EQL 0 0 1
+ 82 JPC 0 0 85
+ 83 LOD 0 0 5
+ 84 SIO 0 0 1
+ 85 LIT 0 0 350
+ 86 STO 0 0 4
+ 87 LIT 0 0 1
+ 88 STO 0 0 5
+ 89 LIT 0 0 5
+ 90 STO 0 0 6
+ 91 LOD 0 0 4
+ 92 LOD 1 0 5
+ 93 LIT 2 0 300
+ 94 ADD 1 1 2
+ 95 GTR 0 0 1
+ 96 JPC 0 0 99
+ 97 LOD 0 0 4
+ 98 SIO 0 0 1
+ 99 LOD 0 0 4
+100 LOD 1 0 5
+101 LIT 2 0 300
+102 ADD 1 1 2
+103 LSS 0 0 1
+104 JPC 0 0 107
+105 LOD 0 0 5
+106 SIO 0 0 1
+107 LOD 0 0 4
+108 LOD 1 0 5
+109 LIT 2 0 300
+110 ADD 1 1 2
+111 GEQ 0 0 1
+112 JPC 0 0 115
+113 LOD 0 0 4
+114 SIO 0 0 1
+115 LOD 0 0 4
+116 LOD 1 0 5
+117 LIT 2 0 300
+118 ADD 1 1 2
+119 LEQ 0 0 1
+120 JPC 0 0 123
+121 LOD 0 0 5
+122 SIO 0 0 1
+123 LOD 0 0 4
+124 LOD 1 0 5
+125 LIT 2 0 300
+126 ADD 1 1 2
+127 NEQ 0 0 1
+128 JPC 0 0 131
+129 LOD 0 0 4
+130 SIO 0 0 1
+131 LOD 0 0 4
+132 LOD 1 0 5
+133 LIT 2 0 300
+134 ADD 1 1 2
+135 EQL 0 0 1
+136 JPC 0 0 139
+137 LOD 0 0 5
+138 SIO 0 0 1
+139 SIO 0 0 3
+
+
+-------------------------------------------
+VIRTUAL MACHINE TRACE:
+Initial Values:
+PC	BP	SP	Stack
+0	1	0	0 
+Stack Trace:
+         R  L  M  PC BP SP  Stack
+0   INC    0   0   7   1   1   7   0   0   0   0   0   0   0 
+RF:  0   0   0   0   0   0   0   0 
+1   LIT    0   0   3   2   1   7   0   0   0   0   0   0   0 
+RF:  3   0   0   0   0   0   0   0 
+2   STO    0   0   4   3   1   7   0   0   0   0   3   0   0 
+RF:  3   0   0   0   0   0   0   0 
+3   LIT    0   0   7   4   1   7   0   0   0   0   3   0   0 
+RF:  7   0   0   0   0   0   0   0 
+4   STO    0   0   5   5   1   7   0   0   0   0   3   7   0 
+RF:  7   0   0   0   0   0   0   0 
+5   LIT    0   0   0   6   1   7   0   0   0   0   3   7   0 
+RF:  0   0   0   0   0   0   0   0 
+6   STO    0   0   6   7   1   7   0   0   0   0   3   7   0 
+RF:  0   0   0   0   0   0   0   0 
+7   LOD    0   0   4   8   1   7   0   0   0   0   3   7   0 
+RF:  3   0   0   0   0   0   0   0 
+8   LOD    1   0   5   9   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+9   GTR    0   0   1  10   1   7   0   0   0   0   3   7   0 
+RF:  0   7   0   0   0   0   0   0 
+10  JPC    0   0  13  13   1   7   0   0   0   0   3   7   0 
+RF:  0   7   0   0   0   0   0   0 
+13  LOD    0   0   4  14   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+14  LOD    1   0   5  15   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+15  LSS    0   0   1  16   1   7   0   0   0   0   3   7   0 
+RF:  1   7   0   0   0   0   0   0 
+16  JPC    0   0  19  17   1   7   0   0   0   0   3   7   0 
+RF:  1   7   0   0   0   0   0   0 
+17  LOD    0   0   5  18   1   7   0   0   0   0   3   7   0 
+RF:  7   7   0   0   0   0   0   0 
+OUTPUT: 7
+18  SIO    0   0   1  19   1   7   0   0   0   0   3   7   0 
+RF:  7   7   0   0   0   0   0   0 
+19  LOD    0   0   4  20   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+20  LOD    1   0   5  21   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+21  GEQ    0   0   1  22   1   7   0   0   0   0   3   7   0 
+RF:  0   7   0   0   0   0   0   0 
+22  JPC    0   0  25  25   1   7   0   0   0   0   3   7   0 
+RF:  0   7   0   0   0   0   0   0 
+25  LOD    0   0   4  26   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+26  LOD    1   0   5  27   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+27  LEQ    0   0   1  28   1   7   0   0   0   0   3   7   0 
+RF:  1   7   0   0   0   0   0   0 
+28  JPC    0   0  31  29   1   7   0   0   0   0   3   7   0 
+RF:  1   7   0   0   0   0   0   0 
+29  LOD    0   0   5  30   1   7   0   0   0   0   3   7   0 
+RF:  7   7   0   0   0   0   0   0 
+OUTPUT: 7
+30  SIO    0   0   1  31   1   7   0   0   0   0   3   7   0 
+RF:  7   7   0   0   0   0   0   0 
+31  LOD    0   0   4  32   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+32  LOD    1   0   5  33   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+33  NEQ    0   0   1  34   1   7   0   0   0   0   3   7   0 
+RF:  1   7   0   0   0   0   0   0 
+34  JPC    0   0  37  35   1   7   0   0   0   0   3   7   0 
+RF:  1   7   0   0   0   0   0   0 
+35  LOD    0   0   4  36   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+OUTPUT: 3
+36  SIO    0   0   1  37   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+37  LOD    0   0   4  38   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+38  LOD    1   0   5  39   1   7   0   0   0   0   3   7   0 
+RF:  3   7   0   0   0   0   0   0 
+39  EQL    0   0   1  40   1   7   0   0   0   0   3   7   0 
+RF:  0   7   0   0   0   0   0   0 
+40  JPC    0   0  43  43   1   7   0   0   0   0   3   7   0 
+RF:  0   7   0   0   0   0   0   0 
+43  LIT    0   0  30  44   1   7   0   0   0   0   3   7   0 
+RF: 30   7   0   0   0   0   0   0 
+44  STO    0   0   4  45   1   7   0   0   0   0  30   7   0 
+RF: 30   7   0   0   0   0   0   0 
+45  LIT    0   0  17  46   1   7   0   0   0   0  30   7   0 
+RF: 17   7   0   0   0   0   0   0 
+46  STO    0   0   5  47   1   7   0   0   0   0  30  17   0 
+RF: 17   7   0   0   0   0   0   0 
+47  LIT    0   0  10  48   1   7   0   0   0   0  30  17   0 
+RF: 10   7   0   0   0   0   0   0 
+48  STO    0   0   6  49   1   7   0   0   0   0  30  17  10 
+RF: 10   7   0   0   0   0   0   0 
+49  LOD    0   0   4  50   1   7   0   0   0   0  30  17  10 
+RF: 30   7   0   0   0   0   0   0 
+50  LOD    1   0   5  51   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+51  GTR    0   0   1  52   1   7   0   0   0   0  30  17  10 
+RF:  1  17   0   0   0   0   0   0 
+52  JPC    0   0  55  53   1   7   0   0   0   0  30  17  10 
+RF:  1  17   0   0   0   0   0   0 
+53  LOD    0   0   4  54   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+OUTPUT: 30
+54  SIO    0   0   1  55   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+55  LOD    0   0   4  56   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+56  LOD    1   0   5  57   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+57  LSS    0   0   1  58   1   7   0   0   0   0  30  17  10 
+RF:  0  17   0   0   0   0   0   0 
+58  JPC    0   0  61  61   1   7   0   0   0   0  30  17  10 
+RF:  0  17   0   0   0   0   0   0 
+61  LOD    0   0   4  62   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+62  LOD    1   0   5  63   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+63  GEQ    0   0   1  64   1   7   0   0   0   0  30  17  10 
+RF:  1  17   0   0   0   0   0   0 
+64  JPC    0   0  67  65   1   7   0   0   0   0  30  17  10 
+RF:  1  17   0   0   0   0   0   0 
+65  LOD    0   0   4  66   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+OUTPUT: 30
+66  SIO    0   0   1  67   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+67  LOD    0   0   4  68   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+68  LOD    1   0   5  69   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+69  LEQ    0   0   1  70   1   7   0   0   0   0  30  17  10 
+RF:  0  17   0   0   0   0   0   0 
+70  JPC    0   0  73  73   1   7   0   0   0   0  30  17  10 
+RF:  0  17   0   0   0   0   0   0 
+73  LOD    0   0   4  74   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+74  LOD    1   0   5  75   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+75  NEQ    0   0   1  76   1   7   0   0   0   0  30  17  10 
+RF:  1  17   0   0   0   0   0   0 
+76  JPC    0   0  79  77   1   7   0   0   0   0  30  17  10 
+RF:  1  17   0   0   0   0   0   0 
+77  LOD    0   0   4  78   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+OUTPUT: 30
+78  SIO    0   0   1  79   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+79  LOD    0   0   4  80   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+80  LOD    1   0   5  81   1   7   0   0   0   0  30  17  10 
+RF: 30  17   0   0   0   0   0   0 
+81  EQL    0   0   1  82   1   7   0   0   0   0  30  17  10 
+RF:  0  17   0   0   0   0   0   0 
+82  JPC    0   0  85  85   1   7   0   0   0   0  30  17  10 
+RF:  0  17   0   0   0   0   0   0 
+85  LIT    0   0 350  86   1   7   0   0   0   0  30  17  10 
+RF:350  17   0   0   0   0   0   0 
+86  STO    0   0   4  87   1   7   0   0   0   0 350  17  10 
+RF:350  17   0   0   0   0   0   0 
+87  LIT    0   0   1  88   1   7   0   0   0   0 350  17  10 
+RF:  1  17   0   0   0   0   0   0 
+88  STO    0   0   5  89   1   7   0   0   0   0 350   1  10 
+RF:  1  17   0   0   0   0   0   0 
+89  LIT    0   0   5  90   1   7   0   0   0   0 350   1  10 
+RF:  5  17   0   0   0   0   0   0 
+90  STO    0   0   6  91   1   7   0   0   0   0 350   1   5 
+RF:  5  17   0   0   0   0   0   0 
+91  LOD    0   0   4  92   1   7   0   0   0   0 350   1   5 
+RF:350  17   0   0   0   0   0   0 
+92  LOD    1   0   5  93   1   7   0   0   0   0 350   1   5 
+RF:350   1   0   0   0   0   0   0 
+93  LIT    2   0 300  94   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+94  ADD    1   1   2  95   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+95  GTR    0   0   1  96   1   7   0   0   0   0 350   1   5 
+RF:  1 301 300   0   0   0   0   0 
+96  JPC    0   0  99  97   1   7   0   0   0   0 350   1   5 
+RF:  1 301 300   0   0   0   0   0 
+97  LOD    0   0   4  98   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+OUTPUT: 350
+98  SIO    0   0   1  99   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+99  LOD    0   0   4 100   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+100 LOD    1   0   5 101   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+101 LIT    2   0 300 102   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+102 ADD    1   1   2 103   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+103 LSS    0   0   1 104   1   7   0   0   0   0 350   1   5 
+RF:  0 301 300   0   0   0   0   0 
+104 JPC    0   0 107 107   1   7   0   0   0   0 350   1   5 
+RF:  0 301 300   0   0   0   0   0 
+107 LOD    0   0   4 108   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+108 LOD    1   0   5 109   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+109 LIT    2   0 300 110   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+110 ADD    1   1   2 111   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+111 GEQ    0   0   1 112   1   7   0   0   0   0 350   1   5 
+RF:  1 301 300   0   0   0   0   0 
+112 JPC    0   0 115 113   1   7   0   0   0   0 350   1   5 
+RF:  1 301 300   0   0   0   0   0 
+113 LOD    0   0   4 114   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+OUTPUT: 350
+114 SIO    0   0   1 115   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+115 LOD    0   0   4 116   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+116 LOD    1   0   5 117   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+117 LIT    2   0 300 118   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+118 ADD    1   1   2 119   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+119 LEQ    0   0   1 120   1   7   0   0   0   0 350   1   5 
+RF:  0 301 300   0   0   0   0   0 
+120 JPC    0   0 123 123   1   7   0   0   0   0 350   1   5 
+RF:  0 301 300   0   0   0   0   0 
+123 LOD    0   0   4 124   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+124 LOD    1   0   5 125   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+125 LIT    2   0 300 126   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+126 ADD    1   1   2 127   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+127 NEQ    0   0   1 128   1   7   0   0   0   0 350   1   5 
+RF:  1 301 300   0   0   0   0   0 
+128 JPC    0   0 131 129   1   7   0   0   0   0 350   1   5 
+RF:  1 301 300   0   0   0   0   0 
+129 LOD    0   0   4 130   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+OUTPUT: 350
+130 SIO    0   0   1 131   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+131 LOD    0   0   4 132   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+132 LOD    1   0   5 133   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+133 LIT    2   0 300 134   1   7   0   0   0   0 350   1   5 
+RF:350   1 300   0   0   0   0   0 
+134 ADD    1   1   2 135   1   7   0   0   0   0 350   1   5 
+RF:350 301 300   0   0   0   0   0 
+135 EQL    0   0   1 136   1   7   0   0   0   0 350   1   5 
+RF:  0 301 300   0   0   0   0   0 
+136 JPC    0   0 139 139   1   7   0   0   0   0 350   1   5 
+RF:  0 301 300   0   0   0   0   0 
+139 SIO    0   0   3 140   1   7   0   0   0   0 350   1   5 
+RF:  0 301 300   0   0   0   0   0 
+
+-------------------------------------------
+PROGRAM INPUT/OUTPUT:
+OUTPUT: 7
+OUTPUT: 7
+OUTPUT: 3
+OUTPUT: 30
+OUTPUT: 30
+OUTPUT: 30
+OUTPUT: 350
+OUTPUT: 350
+OUTPUT: 350

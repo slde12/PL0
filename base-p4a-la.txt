@@ -1,0 +1,84 @@
+-------------------------------------------
+LIST OF LEXEMES/TOKENS:
+
+Internal Representation:
+29  2 fuel  17  2 v2  17  2 saturn  17  2 bfr  18  21  2 fuel  20  3 10000  18  2 v2  20  3 5000  18  2 saturn  20  3 5  18  2 bfr  20  3 0  18  25  2 saturn  13  3 0  26  21  31  2 saturn  18  2 bfr  20  2 bfr  4  2 v2  18  25  2 fuel  13  3 0  26  21  31  2 fuel  18  2 fuel  20  2 fuel  5  3 2500  18  22  18  2 saturn  20  2 saturn  5  3 1  18  2 fuel  20  3 10000  18  22  18  31  2 bfr  18  22  19  
+
+Symbolic Representation:
+varsym  identsym fuel  commasym  identsym v2  commasym  identsym saturn  commasym  identsym bfr  semicolonsym  beginsym  identsym fuel  becomessym  numbersym 10000  semicolonsym  identsym v2  becomessym  numbersym 5000  semicolonsym  identsym saturn  becomessym  numbersym 5  semicolonsym  identsym bfr  becomessym  numbersym 0  semicolonsym  whilesym  identsym saturn  gtrsym  numbersym 0  dosym  beginsym  writesym  identsym saturn  semicolonsym  identsym bfr  becomessym  identsym bfr  plussym  identsym v2  semicolonsym  whilesym  identsym fuel  gtrsym  numbersym 0  dosym  beginsym  writesym  identsym fuel  semicolonsym  identsym fuel  becomessym  identsym fuel  minussym  numbersym 2500  semicolonsym  endsym  semicolonsym  identsym saturn  becomessym  identsym saturn  minussym  numbersym 1  semicolonsym  identsym fuel  becomessym  numbersym 10000  semicolonsym  endsym  semicolonsym  writesym  identsym bfr  semicolonsym  endsym  periodsym  
+
+
+Code is syntactically correct. Assembly code generated successfully.
+-------------------------------------------
+GENERATED INTERMEDIATE CODE:
+  0 inc 0 0 8
+  1 lit 0 0 10000
+  2 sto 0 0 4
+  3 lit 0 0 5000
+  4 sto 0 0 5
+  5 lit 0 0 5
+  6 sto 0 0 6
+  7 lit 0 0 0
+  8 sto 0 0 7
+  9 lod 0 0 6
+ 10 lit 1 0 0
+ 11 gtr 0 0 1
+ 12 jpc 0 0 37
+ 13 lod 0 0 6
+ 14 sio 0 0 1
+ 15 lod 0 0 7
+ 16 lod 1 0 5
+ 17 add 0 0 1
+ 18 sto 0 0 7
+ 19 lod 0 0 4
+ 20 lit 1 0 0
+ 21 gtr 0 0 1
+ 22 jpc 0 0 30
+ 23 lod 0 0 4
+ 24 sio 0 0 1
+ 25 lod 0 0 4
+ 26 lit 1 0 2500
+ 27 sub 0 0 1
+ 28 sto 0 0 4
+ 29 jmp 0 0 19
+ 30 lod 0 0 6
+ 31 lit 1 0 1
+ 32 sub 0 0 1
+ 33 sto 0 0 6
+ 34 lit 0 0 10000
+ 35 sto 0 0 4
+ 36 jmp 0 0 9
+ 37 lod 0 0 7
+ 38 sio 0 0 1
+ 39 sio 0 0 3
+
+-------------------------------------------
+PROGRAM INPUT/OUTPUT:
+OUTPUT: 5
+OUTPUT: 10000
+OUTPUT: 7500
+OUTPUT: 5000
+OUTPUT: 2500
+OUTPUT: 4
+OUTPUT: 10000
+OUTPUT: 7500
+OUTPUT: 5000
+OUTPUT: 2500
+OUTPUT: 3
+OUTPUT: 10000
+OUTPUT: 7500
+OUTPUT: 5000
+OUTPUT: 2500
+OUTPUT: 2
+OUTPUT: 10000
+OUTPUT: 7500
+OUTPUT: 5000
+OUTPUT: 2500
+OUTPUT: 1
+OUTPUT: 10000
+OUTPUT: 7500
+OUTPUT: 5000
+OUTPUT: 2500
+OUTPUT: 25000
+
+Finished execution. Exiting...

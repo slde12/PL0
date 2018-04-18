@@ -1,0 +1,47 @@
+-------------------------------------------
+LIST OF LEXEMES/TOKENS:
+
+Internal Representation:
+29  2 x  17  2 y  17  2 z  18  21  2 x  20  3 5  18  2 y  20  3 3  18  2 z  20  3 0  18  25  2 y  13  3 0  26  21  31  2 y  18  2 z  20  2 z  4  2 x  18  2 y  20  2 y  5  3 1  18  22  18  31  2 z  18  22  19  
+
+Symbolic Representation:
+varsym  identsym x  commasym  identsym y  commasym  identsym z  semicolonsym  beginsym  identsym x  becomessym  numbersym 5  semicolonsym  identsym y  becomessym  numbersym 3  semicolonsym  identsym z  becomessym  numbersym 0  semicolonsym  whilesym  identsym y  gtrsym  numbersym 0  dosym  beginsym  writesym  identsym y  semicolonsym  identsym z  becomessym  identsym z  plussym  identsym x  semicolonsym  identsym y  becomessym  identsym y  minussym  numbersym 1  semicolonsym  endsym  semicolonsym  writesym  identsym z  semicolonsym  endsym  periodsym  
+
+
+Code is syntactically correct. Assembly code generated successfully.
+-------------------------------------------
+GENERATED INTERMEDIATE CODE:
+  0 inc 0 0 7
+  1 lit 0 0 5
+  2 sto 0 0 4
+  3 lit 0 0 3
+  4 sto 0 0 5
+  5 lit 0 0 0
+  6 sto 0 0 6
+  7 lod 0 0 5
+  8 lit 1 0 0
+  9 gtr 0 0 1
+ 10 jpc 0 0 22
+ 11 lod 0 0 5
+ 12 sio 0 0 1
+ 13 lod 0 0 6
+ 14 lod 1 0 4
+ 15 add 0 0 1
+ 16 sto 0 0 6
+ 17 lod 0 0 5
+ 18 lit 1 0 1
+ 19 sub 0 0 1
+ 20 sto 0 0 5
+ 21 jmp 0 0 7
+ 22 lod 0 0 6
+ 23 sio 0 0 1
+ 24 sio 0 0 3
+
+-------------------------------------------
+PROGRAM INPUT/OUTPUT:
+OUTPUT: 3
+OUTPUT: 2
+OUTPUT: 1
+OUTPUT: 15
+
+Finished execution. Exiting...

@@ -1,0 +1,20 @@
+var fuel, v2, saturn, bfr;
+begin
+fuel := 10000;
+v2 := 5000; 
+saturn := 5;
+bfr := 0;       
+while saturn > 0  do
+ begin
+  write saturn;
+  bfr := bfr + v2;
+  while fuel > 0 do
+    begin
+    write fuel;
+    fuel := fuel - 2500;
+    end;
+  saturn := saturn - 1;
+  fuel := 10000;
+ end;
+write bfr;
+end.

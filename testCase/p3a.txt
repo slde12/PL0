@@ -1,0 +1,13 @@
+var x, y, z;
+begin
+x := 5; 
+y := 3;
+z := 0;       
+while y > 0  do
+ begin
+  write y;
+  z := z + x;
+  y := y - 1;
+ end;
+write z;
+end.
