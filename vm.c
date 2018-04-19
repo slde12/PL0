@@ -239,35 +239,42 @@ void printVMTracing(){
 }
 
 void printOutPut(){
-	fp2 = fopen("outPut.log", "r");
-	char buffer[500];
-	printf("\n");
-	printf("-------------------------------------------\n");
-	printf("PROGRAM INPUT/OUTPUT:\n");
-	while(fgets(buffer, 500, fp2) != NULL){
-		printf("%s", buffer);
+	if(Code != NULL){
+		fp2 = fopen("outPut.log", "r");
+		char buffer[500];
+		printf("\n");
+		printf("-------------------------------------------\n");
+		printf("PROGRAM INPUT/OUTPUT:\n");
+		while(fgets(buffer, 500, fp2) != NULL){
+			printf("%s", buffer);
+		}
+		fclose(fp2);
+	}else{
+		printf("\n");
+		printf("-------------------------------------------\n");
+		printf("PROGRAM INPUT/OUTPUT:\n");
 	}
-	fclose(fp2);
 }
 
 
 void virtualMachine(instruction* assembly){
-
 	Code = assembly;
-	init();
-	fp = fopen("stackTracing.log", "w");
-	fp2 = fopen("outPut.log", "w");
+	if(Code != NULL){
+		init();
+		fp = fopen("stackTracing.log", "w");
+		fp2 = fopen("outPut.log", "w");
 
-	fprintf(fp, "-------------------------------------------\n");
-	fprintf(fp, "VIRTUAL MACHINE TRACE:\n");
-	fprintf(fp, "Initial Values:\n"); 
-	fprintf(fp, "PC	BP	SP	Stack\n");
-	fprintf(fp, "0	1	0	0 \n");
-	fprintf(fp, "Stack Trace:\n");
-	fprintf(fp, "         R  L  M  PC BP SP  Stack\n");
-	loop();
-	
-	fclose(fp2);
-	fclose(fp);
+		fprintf(fp, "-------------------------------------------\n");
+		fprintf(fp, "VIRTUAL MACHINE TRACE:\n");
+		fprintf(fp, "Initial Values:\n"); 
+		fprintf(fp, "PC	BP	SP	Stack\n");
+		fprintf(fp, "0	1	0	0 \n");
+		fprintf(fp, "Stack Trace:\n");
+		fprintf(fp, "         R  L  M  PC BP SP  Stack\n");
+		loop();
+		
+		fclose(fp2);
+		fclose(fp);
+	}
 }
 

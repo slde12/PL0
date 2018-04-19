@@ -411,6 +411,6 @@ lexemeToken* lexer(char const *fileName){
 		}
 		//printTokenTable(myToken);
 		//printf("test3\n");
-		printTokenList(myToken);
+		//printTokenList(myToken);
 	}
 }
